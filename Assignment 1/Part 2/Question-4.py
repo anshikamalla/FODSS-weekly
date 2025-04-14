@@ -1,0 +1,19 @@
+'''
+ Write a program to find the Euclidean distance between two coordinates.
+ Take both the coordinates from the user as input.
+
+'''
+
+import math
+
+
+x1 = float(input("Enter x1: "))
+y1 = float(input("Enter y1: "))
+x2 = float(input("Enter x2: "))
+y2 = float(input("Enter y2: "))
+
+# Calculating Euclidean distance
+distance = math.sqrt((x2 - x1) ** 2 + (y2 - y1) ** 2)
+
+
+print(f"Euclidean distance: {distance:.2f}")
